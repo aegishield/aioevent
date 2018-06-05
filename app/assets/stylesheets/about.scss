@@ -1,0 +1,134 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+extra-light : 200
+medium  : 500
+semi-bold : 600
+extra-bold : 800
+black : 900
+*/
+
+body {
+    margin: 0px 0px;
+    color: white;
+}
+
+#section-atas {
+    background-image: url(atas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.desc {
+    margin: 30px;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 200;
+    text-align: justify
+}
+
+.aiosewa {
+    font-size: 50px;
+}
+
+.about {
+    font-size: 65px;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.team {
+    font-style: italic;
+    font-family: Raleway;
+    font-size: 47px;
+    font-weight: 900;
+}
+
+#section-bawah {
+    background-color: rgb(0, 136, 246);
+    padding: 10px
+}
+
+.photo {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.grid {
+    background-color: black;
+    margin: 0 300px;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+.box:nth-of-type(1) {
+    background: #ccc;
+}
+
+.box:nth-of-type(2) {
+    background: #bbb;
+    border-left: 1px solid #f00;
+}
+
+.box:nth-of-type(3) {
+    background: #aaa;
+    border-top: 1px solid #f00;
+}
+
+.box:nth-of-type(4) {
+    background: #ddd;
+    border-top: 1px solid #f00;
+    border-left: 1px solid #f00;
+}
+
+.footer {
+    margin-top: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Raleway;
+    margin-bottom: 40px;
+}
+
+.name {
+    text-align: center;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+.icon {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.imgcenter {
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pangkat {
+    text-align: center;
+    font-size: 20px;
+    font-family: Raleway;
+    font-weight: 800;
+}

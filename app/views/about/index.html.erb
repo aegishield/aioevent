@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Latihan Javascript</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,600,800,900i&amp;subset=latin-ext" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="section-atas">
+            <div id="row">
+                <h1 class="center about">ABOUT</h1>
+                <div id="col-lg">
+                    <p class="desc"><span class="aiosewa">AioSewa</span> merupakan salah satu online marketplace yang menyediakan sarana sewa-menyewa yang aman dan terpercaya antara vendor penyedia barang maupun jasa dan event dengan konsumennya.</p>
+                </div>
+                <p class="desc"><span class="aiosewa">AioSewa</span> memberikan jaminan 100% uang kebali kepada penyewa jika ada vendor yang merugikan. Dalam platform ini konsumen diberikan berbagai macam perlengkapan dan jasa perlu disiapkan untuk menghelat suatu acara
+                    dengan harga yang relatif sesuai dengan kantong.</p>
+
+                <!-- 3 line gaje -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="section-bawah">
+            <h1 class="center team">The Team</h1>
+            <div class="row">
+                <div class="col-md">
+                    <div class="name">Try Wiguna</div>
+                    <div class="pangkat">CEO</div>
+                    <%= image_tag("tw.png", :alt => "tw" , :class => "img-fluid") %>
+                </div>
+                <div class="col-md">
+                    <div class="name">Bagus Prasetyo</div>
+                    <div class="pangkat">CTO</div>
+                    <%= image_tag("bagus.png", :alt => "bagus", :class=>"img-fluid") %>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <%= image_tag("yoga.png", :alt => "yoga",:class=>"img-fluid") %>
+                        <div class="name">Komang Yogananda</div>
+                        <div class="pangkat">COO</div>
+                </div>
+                <div class="col-md">
+                    <%= image_tag("tiago.png", :alt => "tiago",:class=>"img-fluid") %>
+                        <div class="name">Kadek Tiago</div>
+                        <div class="pangkat">CPO</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br style="clear:both;">
+    <div class="container-fluid footer">
+        <p class="center footer">Keep In Touch With Us!</p>
+
+        <div class="icon">
+            <a href="https://www.facebook.com"><%= image_tag("fb.png", :alt =>"facebook", :class=>"img-fluid")%></a>
+        </div>
+
+        <div class="icon">
+            <a href="https://line.com"><img class="imgcenter" src="line.png" alt="line"></a>
+        </div>
+
+        <div class="icon">
+            <a href="https://www.instagram.com"><img class="imgcenter" src="ig.png" alt="instagram"></a>
+        </div>
+
+        <div class="icon">
+            <a href="https://www.youtube.com"><img class="imgcenter" src="ytb.png" alt="youtube"></a>
+        </div>
+
+        <br style="clear:both;">
+
+    </div>
+    </div>
+
+</body>
+
+
+</html>
+<%= link_to 'Contact', about_contact_path%>
